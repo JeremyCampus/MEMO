@@ -11,3 +11,7 @@ git pull origin master <------ met a jours la version locale (master change tout
 DIVERS :
 *status <------ Montre le status de l'arbre de travails 
 *log <----- voir tout les changement de version, avec les dates/auteurs ( Q pour quitter)s
+
+
+composer install 
+php artisan key:generate
