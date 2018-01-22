@@ -8,16 +8,18 @@ cd monLaravel
 php artisan serve
 ----------------------------------------
 
+IMPORTANT
+----------------------------------------
+Renommer: .env.example  -->  .env
+composer install 
+php artisan key:generate
+----------------------------------------
+
 INSTALLER DEBUGBAR
 ----------------------------------------
 composer require barryvdh/laravel-debugbar --dev
 ----------------------------------------
 
-IMPORTANT
-----------------------------------------
-composer install 
-php artisan key:generate
-----------------------------------------
 ___________________________________________________________________________
 page about.blade.php :
 -----------------------------------------
