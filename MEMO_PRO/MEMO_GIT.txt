@@ -2,7 +2,7 @@ Démarche :
 git init <------ Définir repertoire actuel comme 'master', comme référence.
 git remote add origin https://github.com/bla-git.git <------ Définir le lien github comme 'origin', comme référence
 git clone https://github.com/bla-git.git <----- Copie le contenu du lien, et garde en mémoire les information de connexion/version/etc... 
-cd git remote add origin 
+
 git add monProjet <------ Met dans le "colis", tout ce qui est dans "monProjet"
 git commit -m "monCommentaire" <------ permet de mettre un commentaire/nom au "colis" (OBLIGATOIRE)
 git push origin master <------ envoie le 'colis' du dossier master dans l'origin
@@ -11,7 +11,10 @@ git pull origin master <------ met a jours la version locale (master change tout
 DIVERS :
 *status <------ Montre le status de l'arbre de travails 
 *log <----- voir tout les changement de version, avec les dates/auteurs ( Q pour quitter)s
-
+*reset
 
 composer install 
 php artisan key:generate
+
+
+cd git remote add origin 
